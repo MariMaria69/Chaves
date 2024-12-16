@@ -30,7 +30,7 @@
 
     #Menu{
     display: flex;
-    background-color: #333;
+    background-color: #003f1a;
     position: fixed;
     z-index: 5;
     width: 100%;
@@ -41,7 +41,6 @@
     list-style: none;
     height: 100%;
     display: flex;
-    gap: 30px;
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -50,6 +49,7 @@
 
   #Menu nav a {
     color: #fff;
+    font-size: large;
     text-decoration: none;
   }
 
@@ -578,6 +578,9 @@ h2 {
 
   /*====================*/
   
+  #qrcode{
+    text-align: center;
+  }
   
   footer {
     background-color: #003f1a;
@@ -698,6 +701,7 @@ h2 {
     }
 
     .texto-sobre-imagem {
+        margin: 5%;
         padding: 10px;
     }
 
