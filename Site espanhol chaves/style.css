@@ -13,7 +13,7 @@
     color: #333;
   }
 
-  h2 {
+  h2, h3{
     font-family: Lucida, monospace;
   }
   .overFlow{
@@ -486,8 +486,6 @@ h2 {
     font-weight: bold;
     color: #333;
 }
-
-
 
 .cartoes2 {
     padding: 20px;
