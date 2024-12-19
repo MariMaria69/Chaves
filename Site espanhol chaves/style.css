@@ -549,10 +549,60 @@ h2 {
  }
 
 
-  /*====================*/
+  /*=========feedback===========*/
   
-  #qrcode{
-    text-align: center;
+  .fback{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    /*border: 10px solid black;*/
+  }
+
+  #formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-right: 10%;
+  }
+
+  #formulario button{
+    padding: 3%;
+    background-color: #51aa45;
+    border-radius: 5px;
+  }
+
+  #Nombre {
+    width: 300px;
+    font-size: 16px;
+    padding: 2%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #email {
+    width: 300px;
+    font-size: 16px;
+    padding: 2%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #feedbac {
+    width: 300px;
+    font-size: 16px;
+    padding: 2% 2% 30% 2%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #QRcode{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height:200px;
+    margin-top: 1%;
   }
   
   footer {
@@ -560,6 +610,30 @@ h2 {
     color: #fff;
     padding: 10px;
     text-align: center;
+  }
+
+  /* Area de personagens */
+  #perso {
+    background-color: #51aa45;
+    padding-top: 5%;
+  }
+
+  #perso div{
+    display: flex;
+  }
+
+  #perso div > img{
+    height: 500px;
+    width: auto;
+  }
+
+  .madruga{
+    background-color: #ccc;
+  }
+
+  .chaves{
+    color: white;
+    background-color: #51aa45;
   }
 
   /* Media Queries para Responsividade */
