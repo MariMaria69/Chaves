@@ -28,6 +28,10 @@
     display: none !important;
   }
 
+  a{
+    color: #fff;
+  }
+
     #Menu{
     display: flex;
     background-color: #003f1a;
@@ -618,27 +622,61 @@ h2 {
   }
 
   /* Area de personagens */
-  #perso {
-    background-color: #51aa45;
+  .perso {
+    background-color: #ccc;
     padding-top: 5%;
   }
 
-  #perso div{
+  .perso div{
     display: flex;
   }
 
-  #perso div > img{
+  .perso div > img{
     height: 500px;
     width: auto;
   }
 
+  .perso section{
+        background-color: rgb(238, 238, 238);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+        text-align: center;
+        color: #333;
+        position: relative;
+        left: 0;
+  }
+
+  .perso h2 {
+    margin-bottom: 50px;
+    margin-top: -15px;
+}
+
+.perso h2::after{
+    content: "";
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 20px;
+    background-color: #333;
+}
+
+.perso p {
+    text-align: left;
+    font-size: 15px;
+    padding: 2%;
+    line-height: 1.5;
+}
+
   .madruga{
-    background-color: #ccc;
+    background-color: #51aa45;
+    padding: 5%;
   }
 
   .chaves{
-    color: white;
-    background-color: #51aa45;
+    background-color: #ccc;
+    padding: 5%;
   }
 
   /* Media Queries para Responsividade */
@@ -765,6 +803,14 @@ h2 {
     object-fit: cover; 
     z-index: -1; 
 }
+.perso div{
+    flex-direction: column;
+  }
+
+  .perso div > img{
+    height: 100%;
+    width: auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -819,4 +865,7 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
+.perso div{
+    flex-direction: column;
+  }
 }

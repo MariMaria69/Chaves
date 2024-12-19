@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function() {
     var openModalLinks = document.querySelectorAll('.open-modal');
     var modals = document.querySelectorAll('.modal');
@@ -47,6 +49,9 @@ function link(){
     document.body.classList.remove("overFlow")
 }
 
+function feedback() {
+    alert("Seu feedback foi enviado!");
+}
 
 
 
